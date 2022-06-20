@@ -1,0 +1,34 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style_base.css
+        include ../static/style_members.css
+
+block content 
+    div.container 
+        h1 Members List 
+        table 
+            tr
+                th Name
+                th Account No
+                th Email
+                th Balance
+                th Details 
+                
+            each user in users  
+                tr                 
+                    td #{user.name}
+                    td #{user.accountNo}
+                    td #{user.email}
+                    td #{user.balance}
+                    td 
+                            <form action="/customer_details" method="POST"> 
+                                <button value = #{user.id}  type = "submit" className='btn' name = "clickBtn" }>View</button>
+                            </form> 
+                       
+        table
+
+   
+
+    

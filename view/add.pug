@@ -1,0 +1,18 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style_base.css
+        include ../static/style_add.css
+
+block content 
+    div.container 
+        h1 Add Member
+        <form action="/add" method="post" id="contact">
+            <input type="text" class="myInput" name="name" id="name" placeholder="Enter your name">
+            <input type="text" class="myInput" name="email" id="email" placeholder="Enter your email">
+            <input type="number" class="myInput" name="accountNo" id="accountNo" placeholder="Enter your A/c">
+            <input type="number" class="myInput" name="balance" id="balance" placeholder="Enter your balance">
+        
+            <button class="btns">Add</button>
+        </form>
