@@ -1,0 +1,114 @@
+.select-option{
+    /* border: 2px solid black; */
+    width: 30%;
+    /* display: inline-block; */
+}
+.contain{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+   font-family: cursive;
+    margin:35px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 60%;
+    height: 60vh;
+    background-color: aqua;
+}
+label{
+   position: relative;
+   top: 0px;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+ /* .form-container {
+        margin-left: 9vw;
+    } */
+
+    select {
+        padding: .8rem 1.5rem;
+        font-size: 1.5rem;
+        box-shadow: 0 2px 10px ; 
+        
+        border-radius: .5rem;
+        border: none;
+        cursor: pointer;
+    }
+
+    option {
+        border: none;
+        border-radius: 10px;
+    }
+
+    .select-option {
+        padding: 2rem;
+        padding-left: 1rem;
+
+    }
+
+    
+   .btn-tr{
+        
+        /* color: white; */
+        width: 10rem;
+        text-align: center;
+        padding: .8rem .8rem;
+        margin: 4px 428px;
+        border-radius: .5rem;
+        transform: translate(.9rem, -2rem);
+        background-color: #71d487;
+        box-shadow: 0 2px 10px  ;
+        border: 2px solid black;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+ 
+
+    
+
+
+    
+
+    .amount {
+        padding: 7px 15px;
+        margin: 35px 214px;
+        transform: translateY(-2rem);
+    }
+
+    #amount {
+        font-size: 1.5rem;
+        margin: 2px 165px;
+        width: 17.5rem;
+        padding: .7rem;
+        border-radius: .5rem;
+        box-shadow: 0 2px 10px ;    
+        border: none;
+    }
+
+
+
+    /* .add-btn:hover {
+        transform: scale(1.1);
+        background-image: radial-gradient( circle 602px at 2.1% 5.1%,  rgb(247, 73, 163) 0%, rgba(0,0,0,1) 90.1% );
+    }
+
+    
+    
+
+    .fab:hover {
+        transform: scale(1.2);
+        color: rgb(211, 54, 132);
+    } */
+
+    /* .insta , .linkedin, .facebook {
+        padding: 1rem;
+        cursor: pointer;
+    } */

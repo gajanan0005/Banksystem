@@ -1,0 +1,74 @@
+.members-img {
+    position: absolute;
+    width: 40vw;
+    height: 70vh;
+    background: url('../images/50426\ [Converted]-01.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5rem -3rem;
+    z-index: -1;
+    right: 0;
+}
+
+.table-main-div {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+
+.table-main {
+    
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgba($color: #000000, $alpha: .3);
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.table-main th {
+    background-color: rgb(22, 22, 22);
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.table-main td {
+    
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(219, 217, 217);
+}
+
+.table-heading {
+    margin-left: 8rem;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}

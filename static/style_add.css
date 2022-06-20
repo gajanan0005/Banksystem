@@ -1,0 +1,51 @@
+.container{
+    height: 72vh;
+    display: block;
+    margin: 23px auto;
+    border: 2px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container form{
+    text-align: center;
+}
+
+.myInput{
+    display: block;
+    text-align: center;
+    width: 450px;
+    height: 29px;
+    margin: 20px auto;
+    border: 2px solid red;
+    padding: 22px 30px;
+    border-radius: 13px;
+    outline: none;
+    
+}
+
+ input,textarea{
+    display: block;
+    text-align: center;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.btns{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+} 

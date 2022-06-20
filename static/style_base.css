@@ -1,0 +1,17 @@
+
+#footer{
+    margin: 2px 2px;
+    color: whitesmoke;
+    background-color: black;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand img{
+    height: 60px;
+    width: 66px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
